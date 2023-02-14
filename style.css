@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Italiana&family=Noto+Serif+Display:wght@300;400&family=Poppins:wght@200;300;400;500;600;700;800;900&family=Work+Sans:wght@500;600&display=swap');
+
+* 
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.logo-container {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 4px;
+    left: 0;
+    right: 0;
+    
+  }
+.logo-img {
+    width: 430px;
+    margin-top: -50px;
+    margin-bottom: -100px;
+    height: fit-content;
+  }
+  .left-nav {
+    padding: 2rem;
+    font-weight: 500;
+    font-size: .960rem;
+    text-transform: uppercase;
+    position: absolute;
+    top: 40px;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .left-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  .left-nav a {
+    padding: .5rem 1rem;
+    font-size: inherit;
+    background-color: inherit;
+    background-image: none;
+    color: inherit;
+    cursor: pointer;
+  }
+  .left-nav a:hover {
+    background-color: #FFDBD5;
+  }
+  .SV-image {
+    
+    display: block;
+    margin: 0 auto;
+    margin-top: -50px;
+    margin-bottom: -170px;
+    padding: 120px 0;
+    padding-bottom: 0;
+    width: 600px;
+    height: auto;
+  }
+  .slogan-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+
+.slogan-img {
+    width: 560px;
+    height: auto;
+}
+
+.slogan-text {
+    font-size: 17px;
+    font-style: light;
+    margin-top: 2px;
+    letter-spacing: 1.3px;
+    text-align: center;
+}
+.left-text 
+{
+    position: absolute;
+    top: 50%;
+    left: 18%;
+    transform: translateY(-40%);
+    font-family: 'Noto Serif', serif;
+    font-size: 60px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: rgb(58, 58, 58);
+    text-align: left;
+}
+.discover-btn 
+{
+    background-color: black;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 2px;
+    
+    font-family: 'Work Sans', sans-serif;
+    font-size: 20px;
+    margin-left: 70px; 
+    margin-top: 230px;
+    width: auto;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.discover-btn:hover
+{
+    background-color: #f3644b;
+    color: white
+    
+    
+}
+
+.quote-container
+{
+    position:absolute;
+    top: 90%;
+    right:16%;
+    transform: translateY(-40%);
+    font-family: 'Work Sans', sans-serif;
+    font-size: 20px;
+    letter-spacing: 1.4px;
+    line-height: 1.4;
+    text-transform: uppercase;
+    color: rgb(58, 58, 58);
+    text-align: left;
+   ;
+}
+
+.profile-container
+{
+  position: relative;
+  top: 350px; /* move the div down by 50px */
+  text-align: center; /* center the image within the div */
+ }
+
+
+ .profile-text
+{
+  position: absolute;
+  top: 280px;
+  left: 160px;
+  text-align: left;
+  line-height: 2;
+}
+.profile-text h2
+{
+  font-family: 'Italiana', sans-serif;
+  font-size: 30px;
+  font-style: italic;
+  font-weight: 600;
+  color: #BA4B2F;
+  line-height: 1.7;
+}
+.profile-text h5
+{
+  font-family: 'Work Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: left;
+  color: #BA4B2F;
+}
+
+.profile-text h4
+{
+  font-family: 'Work Sans', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.profile-text p
+{
+  font-family: 'Noto Serif', serif;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.shop-btn
+{
+    background-color: #BA4B2F;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 2px;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 20px;
+    width: auto;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.shop-btn:hover
+{
+    background-color: #f1705a;
+    color: white;
+}
